@@ -4,11 +4,11 @@ end
 
 puts addition
 
-def subtraction(num1, num2)
+def subtraction(num1 = "5", num2 = "10")
   num2 - num1
 end
 
-subtraction("5", "10")
+puts subtraction
 
 def division(num1 = "2", num2 = "50")
   num2 / num1
