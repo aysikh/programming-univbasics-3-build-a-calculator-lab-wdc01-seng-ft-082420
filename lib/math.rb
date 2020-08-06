@@ -1,5 +1,5 @@
 def addition(num1 = "5", num2 = "4")
-  sum = "#{num2} + #{num1}"
+  num2 + num1
 end
 
 puts addition
