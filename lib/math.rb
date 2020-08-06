@@ -5,17 +5,16 @@ end
 
 
 def subtraction(num1, num2)
-  num2 - num1
+  sum = "#{num2} - #{num1}"
+  return sum
 end
 
 
-def division(num1 = "2", num2 = "50")
-  num2 / num1
+def division(num1, num2)
+  sum = "#{num2}/#{num1}" 
 end
 
-puts division
-
-def multiplication(num1 = "4", num2 = "30")
+def multiplication(num1, num2)
   num1*num2
 end
 
