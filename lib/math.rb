@@ -2,8 +2,11 @@ def addition(num1 = "5", num2 = "4")
   sum = "#{num2} + #{num1}"
 end
 
-def addition(num1.to_i)
-puts addition
+def addition1(num1.to_i, num2.to_i)
+  sum = num2 + num1
+end
+
+puts addition1
 
 def subtraction(num1, num2)
   num2 - num1
