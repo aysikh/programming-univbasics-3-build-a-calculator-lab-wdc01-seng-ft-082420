@@ -2,6 +2,7 @@ def addition(num1 = "5", num2 = "4")
   sum = "#{num2} + #{num1}"
 end
 
+def addition(num1.to_i)
 puts addition
 
 def subtraction(num1, num2)
