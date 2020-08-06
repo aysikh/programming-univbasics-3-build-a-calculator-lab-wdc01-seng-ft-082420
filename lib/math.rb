@@ -3,13 +3,11 @@ def addition(num1 = "5", num2 = "4")
   return sum
 end
 
-puts addition
 
 def subtraction(num1, num2)
   num2 - num1
 end
 
-subtraction("5", "10")
 
 def division(num1 = "2", num2 = "50")
   num2 / num1
