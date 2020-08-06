@@ -16,7 +16,7 @@ end
 
 puts division
 
-def multiplication(num1 = "40", num2)
+def multiplication(num1 = "4", num2 = "30")
   num1*num2
 end
 
