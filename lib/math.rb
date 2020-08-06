@@ -23,8 +23,6 @@ def modulo(num1, num2)
 
 end
 
-def square_root(num = "81")
+def square_root(num)
   Math.sqrt(num)
 end
-
-puts square_root
